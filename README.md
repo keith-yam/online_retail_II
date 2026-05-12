@@ -37,7 +37,7 @@ The project implements dual forecasting methods to map out the 2012 fiscal year.
 Using a custom-built, sparse-matrix-powered recommendation engine, the system calculates **Lift** and **Confidence** for product pairings.
 * **The "Missed Item" Hook:** Automatically identifies products a high-value customer has *not* purchased that have a high statistical affinity (Lift > 4.0) with their current inventory.
 
-### 4. Account Health & Churn Dashboard
+### 4. Account Churn 
 A proactive monitoring tool that cross-references **Recency** against a customer's unique **Average Purchase Interval (API)**.
 * **Risk Factor:** Flags customers who miss their natural ordering cycle (e.g., Risk Factor > 2.0 = High Risk).
 * **Outcome:** A prioritized lead list for sales teams to initiate "Win-Back" campaigns using the recommendations from the MBA module.
@@ -50,7 +50,7 @@ A proactive monitoring tool that cross-references **Recency** against a customer
 | **Projected Peak Monthly Revenue** | £1.09M (Consolidated Nov 2012) |
 | **High-Risk Accounts Identified** | 20% of High-Value Segment |
 | **Recommendation Engine Speed** | Optimized for 5,000+ SKUs using Sparse Matrices |
-| **Top Cross-Sell Opportunity** | Regency Collection (High Lift Cluster) |
+| **Top Cross-Sell Opportunity** |  High Lift Cluster |
 
 ---
 
@@ -58,9 +58,7 @@ A proactive monitoring tool that cross-references **Recency** against a customer
 ```text
 ├── data/                   # Historical transactional data
 ├── notebooks/              
-│   ├── 01_EDA_Segmentation.ipynb
-│   ├── 02_Revenue_Forecasting.ipynb
-│   └── 03_MBA_and_Churn_Risk.ipynb
+│   ├── online_retail_II.ipynb
 ├── src/                    
 │   └── recommendation_engine.py  # Fast sparse matrix logic
 ├── plots/                  # Exported Plotly visualizations
