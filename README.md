@@ -53,4 +53,4 @@ A proactive monitoring tool that cross-references **Recency** against a customer
 | **Top Cross-Sell Opportunity** |  High Lift Cluster |
 
 ---
-## 👉 **View the Analysis Notebook**: [online_retail_II.ipynb](https://github.com/keith-yam/online_retail_II/blob/main/online_retail_II.html)
+## 👉 **View the Analysis Notebook**: [online_retail_II.html]([https://github.com/keith-yam/online_retail_II/blob/main/online_retail_II.html](https://htmlpreview.github.io/?https://github.com/keith-yam/online_retail_II/blob/main/online_retail_II.html)
